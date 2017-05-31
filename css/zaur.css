@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+}
+
+a {
+      text-decoration: none !important;
+      color: white !important;
+}
+
+a:hover {
+      text-decoration: none !important;
+      color: white !important;
+}
+
+.wrap__container {
+      margin-left: 80px;
+}
+
+/*Контейнер с огромными иконками*/
+.wrap__container {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      justify-content: center;
+      margin-top: 55px;
+}
+
+.wrap_row {
+      display: inline-flex;
+}
+
+.tiles-item {
+      transition: .5s ease-in;
+      display: block;
+      height: 256px;
+      width: 266px;
+      text-align: center;
+      color: white;
+      font-family: 'Quark-Bold';
+      letter-spacing: 1.5px;
+      font-size: 1.2em;
+}
+
+.tiles-item:hover {
+    /*  background: #333;*/
+      opacity: .9;
+      transition: .5s ease;
+}
+
+.tilesOne {
+      background: #5faee3;
+}
+
+.tilesOne:before {
+      margin-bottom: -35px;
+      content: '';
+      height: 187px;
+      display: block;
+      background-image: url(../img/zlo.png);
+      background-repeat: no-repeat;
+      background-position:  center;
+}
+
+.tilesTwo {
+      background: #5faee3;
+}
+
+.tilesTwo:before {
+      margin-bottom: -35px;
+      content: '';
+      height: 187px;
+      display: block;
+      background-image: url(../img/down.png);
+      background-repeat: no-repeat;
+      background-position:  center;
+}
+
+.tilesThree {
+      background: #5faee3;
+}
+
+.tilesThree:before {
+      margin-bottom: -35px;
+      content: '';
+      height: 187px;
+      display: block;
+      background-image: url(../img/message.png);
+      background-repeat: no-repeat;
+      background-position:  center;
+}
+
+.tilesFour {
+      background: #5faee3;
+}
+
+.tilesFour:before {
+      margin-bottom: -35px;
+      content: '';
+      height: 187px;
+      display: block;
+      background-image: url(../img/gist.png);
+      background-repeat: no-repeat;
+      background-position:  center;
+}
+
+.tilesFive {
+      background: #5faee3;
+}
+
+.tilesFive:before {
+      margin-bottom: -35px;
+      content: '';
+      height: 187px;
+      display: block;
+      background-image: url(../img/logout.png);
+      background-repeat: no-repeat;
+      background-position:  center;
+}
+
+/*Конец кода с иконками*/
+
+
+.cloud_Container {
+        width: 1330px;
+        justify-content: space-between;
+}
+
+.big_iconsContainer {
+      width: 1330px;
+      justify-content: space-between;
+}
+
+.information_Container {
+      width: 1330px;
+      justify-content: space-between;
+}
